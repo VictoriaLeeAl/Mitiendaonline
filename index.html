@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/648548ec70.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Lumos Maxima Tienda Online</title>
+</head>
+<header>
+    <img src="imagenes/marca de agua.png" alt="">
+    <h1>LUMOS MAXIMA STORE</h1>
+</header>
+<body>
+    <div class="container">
+        <nav id="carrito">
+            <i class="fa-solid fa-cart-shopping">
+                <div class="buy-card">
+                    <ul class="nav-card">
+                        <li>Imagen</li>
+                        <li>Nombre</li>
+                        <li>Precio</li>
+                        <li>Cantidad</li>
+                    </ul>
+                    <div class="lista_de_cursos">
+                        <!--<img src="imagenes/malteadaf.png" alt="">
+                        <p>Malteada de Frutos Rojos</p>
+                        <p>$350</p>
+                        <p>1</p>
+                        <p><span>X</span></p>-->
+                    </div>
+                    <button id="vaciar_carrito">VACIAR CARRITO</button>
+                </div>
+            </i>
+        </nav>
+        <h1>Velas aromáticas</h1>
+        <div class="grid" id="lista-cursos">
+            <div class="items">
+                <img src="imagenes/malteadaf.png" alt="malteada de fresa">
+                <div class="info">
+                    <h3>Malteada de Frutos Rojos</h3>
+                    <p>Aroma a frutos rojos y fresas con crema</p>
+                    <div class="precio">
+                        <p>$400</p>
+                        <p class="descuento">$350</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="1">Agregar al carrito</button>     
+                </div> 
+            </div>
+
+            <div class="items">
+                <img src="imagenes/malteadac.png" alt="malteada de chocolate">
+                <div class="info">
+                    <h3>Malteada de Chocolate</h3>
+                    <p>Aroma a choco-fresa</p>
+                    <div class="precio">
+                        <p>$400</p>
+                        <p class="descuento">$350</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="2">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="imagenes/valentines.png" alt="valentines day">
+                <div class="info">
+                    <h3>Valentine's Day</h3>
+                    <p>Aroma a frutos rojos</p>
+                    <div class="precio">
+                        <p>$300</p>
+                        <p class="descuento">$250</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="3">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="imagenes/always.png" alt="always">
+                <div class="info">
+                    <h3>Always</h3>
+                    <p>Aroma a Rosas</p>
+                    <div class="precio">
+                        <p>$300</p>
+                        <p class="descuento">$250</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="4">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="imagenes/picnic.png" alt="picnic">
+                <div class="info">
+                    <h3>Picnic Date</h3>
+                    <p>Aroma a Choco-fresa</p>
+                    <div class="precio">
+                        <p>$300</p>
+                        <p class="descuento">$250</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="5">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="imagenes/self love.png" alt="self love">
+                <div class="info">
+                    <h3>Self Love</h3>
+                    <p>Aroma a Lavanda</p>
+                    <div class="precio">
+                        <p>$300</p>
+                        <p class="descuento">$250</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="6">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="imagenes/iced coffee.png" alt="iced coffee">
+                <div class="info">
+                    <h3>Iced Coffee</h3>
+                    <p>Aroma a Café de Grano</p>
+                    <div class="precio">
+                        <p>$300</p>
+                        <p class="descuento">$250</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="7">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="imagenes/rosa.png" alt="Rosa">
+                <div class="info">
+                    <h3>Peonía</h3>
+                    <p>Aroma a Ramo de rosas, 8 cm de diámetro</p>
+                    <div class="precio">
+                        <p>$100</p>
+                        <p class="descuento">$70</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="8">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="imagenes/roseblanca.png" alt="Rosa blanca">
+                <div class="info">
+                    <h3>Rosa Blanca</h3>
+                    <p>Aroma a Ramo de rosas, 8 cm de diámetro</p>
+                    <div class="precio">
+                        <p>$100</p>
+                        <p class="descuento">$70</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="9">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="imagenes/minirosa.png" alt="Mini rosas">
+                <div class="info">
+                    <h3>Mini Rosas</h3>
+                    <p>Aroma a Ramo de rosas, 5 cm de diámetro</p>
+                    <div class="precio">
+                        <p>$45</p>
+                        <p class="descuento">$30</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="10">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="imagenes/amortentia.png" alt="Amortentia">
+                <div class="info">
+                    <h3>Poción Amortentia</h3>
+                    <p>Aroma Frutal</p>
+                    <div class="precio">
+                        <p>$130</p>
+                        <p class="descuento">$100</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="11">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="imagenes/corazones.png" alt="corazones">
+                <div class="info">
+                    <h3>Torre de Corazones</h3>
+                    <p>Aroma a Frutos Rojos</p>
+                    <div class="precio">
+                        <p>$40</p>
+                        <p class="descuento">$30</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="12">Agregar al carrito</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <h3>Todos los derechos reservados para Lumos Maxima Store ©</h3>
+</footer>
+</html>
