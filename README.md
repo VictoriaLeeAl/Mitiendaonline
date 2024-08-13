@@ -13,4 +13,4 @@ En este proyecto diseñé un sitio web de una tienda online para la venta de pro
 + **JavaScript:** Para la programación de botones funcionales y de un carrito de compras interactivo.
 
 ### Vista Previa del Proyecto
-![Demo](imagenes/sitioventas.PNG)
+![Demo](imagenes/sitioventas.png)
