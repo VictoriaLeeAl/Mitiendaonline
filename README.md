@@ -12,4 +12,5 @@ En este proyecto diseñé un sitio web de una tienda online para la venta de pro
 + **CSS3:** Para el diseño y el estilo, incluyendo _flexbox_ para un diseño responsivo y efectos de _cover_.
 + **JavaScript:** Para la programación de botones funcionales y de un carrito de compras interactivo.
 
-
+### Vista Previa del Proyecto
+![Demo](imagenes/sitioventas.PNG)
